@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/Moonraft" mode="merge"/>
+    <filter root="/content/Moonraft" mode="merge"/>
+    <filter root="/content/dam/Moonraft" mode="merge"/>
+    <filter root="/content/experience-fragments/Moonraft" mode="merge"/>
+</workspaceFilter>
