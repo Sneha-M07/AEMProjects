@@ -1,0 +1,20 @@
+<h1>Author Books Component</h1>
+
+<div data-sly-use.authorbooks="com.adobe.aem.guides.wknd.core.models.AuthorBooks"></div>
+
+<p>Multifield with single field</p>
+
+<div> Author Name : ${authorbooks.authorName}</div>
+
+<div data-sly-list.item=${authorbooks.authorBooks}>
+  <p>${itemList.count} : ${item}</p>
+</div>
+
+<p> USING MAP</p>
+
+
+
+
+
+
+
