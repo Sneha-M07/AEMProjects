@@ -31,13 +31,11 @@ public class HeroImageImpl implements HeroImage{
 	
 	@Override
     public String getTitle() {
-		System.out.println(title);
         return title;
     }
 	
 	@Override
     public String getUrl() {
-		System.out.println(fileReference);
         return fileReference;
     }
 	
