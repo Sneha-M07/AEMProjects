@@ -1,0 +1,22 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html>
+      <sly data-sly-call="${clientlib.css @ categories='audi.site'}"/>
+</sly>
+
+<div data-sly-use.heroimage="${'com.moonraft.core.models.HeroImage'}"></div>
+
+<div class="bg-img" style="background-image:url(${properties.fileReference @ context='styleString'});">
+<div>Title :  ${heroimage.title}</div>
+
+ <div class="content">
+  <div class="audi-title"> ${properties.title ? properties.title : "Title"}</div>
+  <div class="audi-sub-title">2021 e-tron & e-tron Sportback</div>
+  <div class="button-wrap" >
+      <button type="button">e-tron</button>
+      <button type="button">e-tron Sportback</button>
+  </div>
+ </div>
+</div>
+
+
+
+
